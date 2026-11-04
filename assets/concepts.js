@@ -56,8 +56,8 @@ export const CONCEPTS = [
     id: "oss", group: "hub", anchor: "#work",
     label: { en: "Open source", ko: "오픈소스" },
     summary: {
-      en: "Twelve repositories under github.com/Xia-Ataraxia. Tools we build for ourselves first, then choose to share: vault conventions, Obsidian plugins, agent skills, and a publishing layer.",
-      ko: "github.com/Xia-Ataraxia에 있는 저장소 열두 개. 먼저 우리가 쓰려고 만들고, 그다음 나누기로 한 도구들입니다. 볼트 규약, Obsidian 플러그인, 에이전트 스킬, 발행 계층.",
+      en: "Twelve repositories under github.com/GoBeromsu. Tools we build for ourselves first, then choose to share: vault conventions, Obsidian plugins, agent skills, and a publishing layer.",
+      ko: "github.com/GoBeromsu에 있는 저장소 열두 개. 먼저 우리가 쓰려고 만들고, 그다음 나누기로 한 도구들입니다. 볼트 규약, Obsidian 플러그인, 에이전트 스킬, 발행 계층.",
     },
     related: ["omsb", "vault", "craft", "sbskills", "mac", "qmd", "oc", "eagle", "player", "bible", "ohermes", "qgl"],
   },
