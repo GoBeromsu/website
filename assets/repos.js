@@ -1,4 +1,4 @@
-// Open-source projects under github.com/Xia-Ataraxia.
+// Open-source projects under github.com/GoBeromsu.
 // Stats were read from the GitHub API and the Obsidian community plugin registry on 2026-10-07.
 // Shared by the home page graph, the work cards, and scripts/build.mjs (which writes /work/<slug>/).
 export const REPOS = [
@@ -24,7 +24,7 @@ export const REPOS = [
     },
     install: { label: "npm", code: "npm install -g oh-my-second-brain\noms setup --vault /path/to/vault\noms setup host install --runtime claude --vault /path/to/vault --yes" },
     facts: { en: ["Node.js ≥ 20", "4 MCP tools", "6 shared skills", "Claude Code · Codex · Hermes"], ko: ["Node.js 20 이상", "MCP 도구 4개", "공유 스킬 6개", "Claude Code · Codex · Hermes"] },
-    image: { src: "https://raw.githubusercontent.com/Xia-Ataraxia/oh-my-second-brain/main/assets/readme-hero.webp", alt: "A towering library with floating pages and connected stars" },
+    image: { src: "https://raw.githubusercontent.com/GoBeromsu/oh-my-second-brain/main/assets/readme-hero.webp", alt: "A towering library with floating pages and connected stars" },
     stats: { stars: 5, pushed: "2026-10-05" }, language: "TypeScript", license: "MIT",
     related: ["secondbrain", "obsidian", "localfirst", "agents", "boundaries", "vault", "sbskills"],
   },
@@ -73,7 +73,7 @@ export const REPOS = [
         "unslop, reflect, correct 같은 스킬을 둔 이유는 간단합니다. 글을 쓰는 에이전트라면 자기 티를 지우고, 세션에서 배우고, 고친 것을 저장소에 남길 수 있어야 하기 때문입니다.",
       ],
     },
-    install: { label: "shell", code: "git clone https://github.com/Xia-Ataraxia/craft-skills\ncd craft-skills && ./install.sh" },
+    install: { label: "shell", code: "git clone https://github.com/GoBeromsu/craft-skills\ncd craft-skills && ./install.sh" },
     facts: { en: ["48 skills", "Plain SKILL.md", "5 runtime lenses", "MIT"], ko: ["스킬 48개", "평범한 SKILL.md", "런타임 렌즈 5개", "MIT"] },
     stats: { stars: 0, pushed: "2026-10-07" }, language: "Python", license: "MIT",
     related: ["skills", "agents", "claudecode", "codex", "hermes", "evidence"],
@@ -98,9 +98,9 @@ export const REPOS = [
         "부분 수정은 대상이 아닌 노트와 frontmatter, ID, 첨부를 그대로 두고, 그 사실을 말이 아니라 해시로 증명합니다.",
       ],
     },
-    install: { label: "shell", code: "git clone https://github.com/Xia-Ataraxia/secondbrain-skills\ncd secondbrain-skills && ./install.sh skills" },
+    install: { label: "shell", code: "git clone https://github.com/GoBeromsu/secondbrain-skills\ncd secondbrain-skills && ./install.sh skills" },
     facts: { en: ["20 packages", "9 format owners", "11 pipeline stages", "MIT"], ko: ["패키지 20개", "형식 담당 9개", "파이프라인 단계 11개", "MIT"] },
-    image: { src: "https://raw.githubusercontent.com/Xia-Ataraxia/secondbrain-skills/main/assets/brand/hero.svg", alt: "Obsidian Skills: twenty independent Agent Skills for Obsidian vaults" },
+    image: { src: "https://raw.githubusercontent.com/GoBeromsu/secondbrain-skills/main/assets/brand/hero.svg", alt: "Obsidian Skills: twenty independent Agent Skills for Obsidian vaults" },
     stats: { stars: 0, pushed: "2026-10-07" }, language: "Python", license: "MIT",
     related: ["obsidian", "skills", "agents", "evidence", "boundaries", "receipts"],
   },
@@ -127,7 +127,7 @@ export const REPOS = [
     },
     install: { label: "Obsidian", code: "Settings → Community plugins → Browse → \"Metadata Auto Classifier\" → Install → Enable" },
     facts: { en: ["Community plugin", "8 provider presets", "Preview before apply", "MIT"], ko: ["커뮤니티 플러그인", "제공자 프리셋 8개", "적용 전 미리보기", "MIT"] },
-    image: { src: "https://raw.githubusercontent.com/Xia-Ataraxia/obsidian-metadata-auto-classifier/main/assets/usecase.gif", alt: "Metadata Auto Classifier generating tags for a note" },
+    image: { src: "https://raw.githubusercontent.com/GoBeromsu/obsidian-metadata-auto-classifier/main/assets/usecase.gif", alt: "Metadata Auto Classifier generating tags for a note" },
     stats: { stars: 57, downloads: 8047, pushed: "2026-10-01" }, language: "TypeScript", license: "MIT",
     community: "metadata-auto-classifier",
     related: ["obsidian", "secondbrain", "moc"],
@@ -273,7 +273,7 @@ export const REPOS = [
         "주인이 있는 에이전트에는 에이전트를 들여다볼 수 있는 주인이 있어야 해서 만들었습니다. 아직 초기 단계의 개인 도구이고, README는 쓰는 중입니다.",
       ],
     },
-    install: { label: "shell", code: "git clone https://github.com/Xia-Ataraxia/obsidian-hermes\ncd obsidian-hermes && npm install && npm run build" },
+    install: { label: "shell", code: "git clone https://github.com/GoBeromsu/obsidian-hermes\ncd obsidian-hermes && npm install && npm run build" },
     facts: { en: ["SSH", "Cron view", "Profile editor", "Early"], ko: ["SSH", "Cron 보기", "프로필 편집", "초기 단계"] },
     stats: { stars: 0, pushed: "2026-09-23" }, language: "TypeScript", license: null,
     related: ["hermes", "agents", "obsidian", "boundaries"],
@@ -299,7 +299,7 @@ export const REPOS = [
         "이 웹사이트의 첫 화면은 같은 three.js와 3d-force-graph 버전으로 같은 아이디어를 가볍게 다시 만든 것입니다.",
       ],
     },
-    install: { label: "quartz.config.ts", code: "- source: github:Xia-Ataraxia/quartz-graph-landing\n  enabled: true\n  options:\n    indexSource: contentIndex" },
+    install: { label: "quartz.config.ts", code: "- source: github:GoBeromsu/quartz-graph-landing\n  enabled: true\n  options:\n    indexSource: contentIndex" },
     facts: { en: ["Quartz v5", "2D / 3D", "Stock content index", "MIT"], ko: ["Quartz v5", "2D / 3D", "기본 콘텐츠 인덱스", "MIT"] },
     stats: { stars: 1, pushed: "2026-09-23" }, language: "TypeScript", license: "MIT",
     related: ["quartz", "obsidian", "moc", "garden"],

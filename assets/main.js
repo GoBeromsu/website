@@ -81,7 +81,7 @@ const nodes = [
   })),
   ...REPOS.map((r) => ({
     id: r.id, group: "product", name: r.name, summary: r.summary[lang],
-    related: r.related ?? [], anchor: "#work", page: `${P}/work/${r.slug}/`, github: `https://github.com/Xia-Ataraxia/${r.slug}`,
+    related: r.related ?? [], anchor: "#work", page: `${P}/work/${r.slug}/`, github: `https://github.com/GoBeromsu/${r.slug}`,
   })),
 ];
 const byId = Object.fromEntries(nodes.map((n) => [n.id, n]));

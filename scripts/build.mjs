@@ -24,7 +24,7 @@ const T = {
     related: "Related ideas on the map", prev: "Previous", next: "Next", all: "All projects",
     lang: "Language", license: "License", none: "none yet", kind: "Kind",
     footerBrand: "Knowledge infrastructure and AI agents that keep your attention yours.",
-    footerCols: [["Site", [["/", "Home"], ["/manifesto/", "Manifesto"], ["/#work", "Open source"], ["/#ataraxia", "Why Ataraxia"]]], ["Elsewhere", [["https://github.com/Xia-Ataraxia", "GitHub"], ["https://beomsukoh.com/", "beomsukoh.com"], ["/ko/", "한국어"]]]],
+    footerCols: [["Site", [["/", "Home"], ["/manifesto/", "Manifesto"], ["/#work", "Open source"], ["/#ataraxia", "Why Ataraxia"]]], ["Elsewhere", [["https://github.com/GoBeromsu", "GitHub"], ["https://beomsukoh.com/", "beomsukoh.com"], ["/ko/", "한국어"]]]],
     copyright: "© 2026 XIA · Ataraxia, made operational.",
     lostTitle: "Not on the map.", lostBody: "That page does not exist, or it moved. The constellation is still here.", lostBtn: "Back to the start",
     ogTitle: "XIA — Ataraxia, made operational",
@@ -39,7 +39,7 @@ const T = {
     related: "지도에서 이어지는 개념", prev: "이전", next: "다음", all: "모든 프로젝트",
     lang: "언어", license: "라이선스", none: "아직 없음", kind: "종류",
     footerBrand: "주의를 빼앗기지 않게 돕는 지식 인프라와 AI 에이전트.",
-    footerCols: [["사이트", [["/ko/", "홈"], ["/ko/manifesto/", "선언"], ["/ko/#work", "오픈소스"], ["/ko/#ataraxia", "왜 아타락시아인가"]]], ["바깥", [["https://github.com/Xia-Ataraxia", "GitHub"], ["https://beomsukoh.com/ko/", "beomsukoh.com"], ["/", "English"]]]],
+    footerCols: [["사이트", [["/ko/", "홈"], ["/ko/manifesto/", "선언"], ["/ko/#work", "오픈소스"], ["/ko/#ataraxia", "왜 아타락시아인가"]]], ["바깥", [["https://github.com/GoBeromsu", "GitHub"], ["https://beomsukoh.com/ko/", "beomsukoh.com"], ["/", "English"]]]],
     copyright: "© 2026 XIA · 아타락시아를 일상으로.",
     lostTitle: "지도에 없는 곳입니다.", lostBody: "이 페이지는 없거나 자리를 옮겼습니다. 별자리는 그대로입니다.", lostBtn: "처음으로",
     ogTitle: "XIA — 아타락시아를 일상으로",
@@ -150,7 +150,7 @@ function repoPage(repo, lang, i) {
   const install = repo.install ? `<h2><small>${t.install}</small>${esc(repo.install.label)}</h2>
           <div class="codeblock"><pre><code>${esc(repo.install.code)}</code></pre><span class="codeblock__label"><button class="codeblock__copy" type="button" data-copy data-copied="${t.copied}">${t.copy}</button></span></div>` : "";
   const links = [
-    `<a class="btn btn--accent" href="https://github.com/Xia-Ataraxia/${repo.slug}" rel="noopener">${t.github}</a>`,
+    `<a class="btn btn--accent" href="https://github.com/GoBeromsu/${repo.slug}" rel="noopener">${t.github}</a>`,
     repo.community ? `<a class="btn" href="https://obsidian.md/plugins?id=${repo.community}" rel="noopener">${t.community}</a>` : "",
   ].filter(Boolean).join("\n              ");
   const html = `    <article class="doc">
