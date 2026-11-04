@@ -1,6 +1,6 @@
 # XIA website
 
-Company site for [XIA](https://github.com/Xia-Ataraxia): knowledge management, AI agents with an owner, and the defense of cognitive resources. Live at https://xia-website.vercel.app.
+Company site for [XIA](https://github.com/GoBeromsu): knowledge management, AI agents with an owner, and the defense of cognitive resources. Live at https://xia-website.vercel.app.
 
 Static HTML, CSS, and ES modules. No framework. The hero is a 3D constellation rendered with `3d-force-graph`; every node is real (an idea from the Ataraxia vault, a repository, a hub, or a principle) and clicking one opens a detail panel.
 
